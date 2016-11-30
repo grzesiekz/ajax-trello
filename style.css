@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #f9ebe0;
+  font-family: "Pontano Sans", sans-serif; }
+
+.board {
+  width: 1206px;
+  margin: 0 auto;
+  background-color: #0d2149;
+  border-radius: 5px; }
+  .board .top-container {
+    margin: 0 auto;
+    text-align: center; }
+    .board .top-container h1 {
+      font-family: "Fredericka the Great", cursive;
+      padding: 20px 0 0 0;
+      text-align: center;
+      color: #f9ebe0;
+      letter-spacing: 2px; }
+  .board .create-column {
+    min-width: 160px;
+    height: 30px;
+    margin: 0 0 20px 0;
+    background-color: #0d2149;
+    color: #f9ebe0;
+    border: 1px solid #f9ebe0;
+    font-weight: 600;
+    border-radius: 5px; }
+    .board .create-column:hover {
+      background-color: #f9ebe0;
+      color: #0d2149;
+      cursor: pointer; }
+
+.column {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  transition: 0.3s;
+  float: left;
+  margin-right: 5px;
+  margin-top: 1px;
+  background-color: #f9ebe0;
+  border-radius: 5px; }
+  .column h2 {
+    color: #208aae;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px; }
+  .column .btn-delete, .column .column-add-card {
+    margin: 0 0 0 5px;
+    border: 1px solid #208aae;
+    background-color: #f9ebe0;
+    border-radius: 3px;
+    color: #208aae;
+    font-weight: bold; }
+    .column .btn-delete:hover, .column .column-add-card:hover {
+      background-color: #208aae;
+      color: #f9ebe0;
+      cursor: pointer; }
+  .column .column-add-card {
+    float: right; }
+  .column .column-title {
+    font-family: "Fredericka the Great", cursive;
+    letter-spacing: 2px;
+    font-weight: 300; }
+
+ul {
+  list-style-type: none;
+  padding: 0; }
+  ul .card {
+    background-color: #9d8189;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin: 0 0 5px 0; }
+    ul .card .btn-delete {
+      float: right;
+      margin-right: 5px;
+      border: 1px solid #f9ebe0;
+      background-color: #9d8189;
+      color: #f9ebe0; }
+      ul .card .btn-delete:hover {
+        background-color: #f9ebe0;
+        color: #9d8189;
+        cursor: pointer; }
+  ul p {
+    padding: 0 5px 0 5px;
+    color: #f9ebe0; }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+/*# sourceMappingURL=style.css.map */
